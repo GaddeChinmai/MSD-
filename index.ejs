@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book List</title>
+</head>
+<body>
+  <h1>Books</h1>
+  <ul>
+    <% books.forEach(book => { %>
+      <li><strong><%= book.title %></strong> by <%= book.author %></li>
+    <% }) %>
+  </ul>
+  <a href="/add-book">Add a new book</a>
+</body>
+</html>
