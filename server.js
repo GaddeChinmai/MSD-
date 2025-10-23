@@ -5,13 +5,18 @@ app.listen(3000,()=>{
     console.log("server is running");
 })
 let books=[{
-    title:"python",
-    author:"uma devi",
-    price:2000
-},{
-    title:"msd",
-    author:"yasir",
+    title:"DMT",
+    author:"Bharghavi",
     price:5000
+},{
+    title:"MSD",
+    author:"Yasir",
+    price:10000
+},
+{
+    title:"CN",
+    author:"Vinoj",
+    price:7000
 }]
 app.get("/",(req,res)=>{
     res.send("working")
